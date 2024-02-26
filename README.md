@@ -9,7 +9,7 @@ The goal of this project was to gain hands-on experience with Next.js, a React f
 ## Features
 
 - Game showcase page displaying various games with relevant information.
-- Edit functionality allowing users to modify game details such as title, description, and images.
+- Edit functionality allowing users to modify game details such as title, description, and images. (not implemented)
 - Responsive design for optimal viewing across different devices.
 
 ## Technologies Used

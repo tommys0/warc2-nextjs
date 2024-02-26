@@ -1,0 +1,36 @@
+.gameDetails {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 20px auto;
+    color: black;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.genre,
+.releaseDate,
+.description {
+    margin-bottom: 5px;
+}
+
+.description {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.goBackButton {
+    color: #000000;
+    border-radius: 20px;
+    border: #000000 1px solid;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}

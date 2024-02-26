@@ -1,0 +1,33 @@
+.nadpis {
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cardlist {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.card {
+    width: calc(30% - 20px);
+    height: 250px;
+    margin-bottom: 20px;
+    border: white 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.editButton {
+    color: #ffffff;
+    border: white 1px solid;
+    border-radius: 20px;
+    width: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}

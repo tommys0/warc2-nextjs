@@ -4,9 +4,9 @@ import styles from './page.module.css';
 export default function Home() {
     return (
         <div className={styles.container}>
-            <h1> Vítejte v Aplikaci pro Správu Her!</h1>
-            <p>Tato aplikace vám umožní snadnou správu her.</p>
-            <p>Procházejte seznam her, upravujte jejich informace a mnoho dalšího.</p>
+            <h1>Moje hry</h1>
+            <p>Tady si muzes upravovat informace o svych hrach</p>
+            <p>Projdi si seznam svych her</p>
             <Link href="/games">
                 <p className={styles.link}>Dashboard</p>
             </Link>

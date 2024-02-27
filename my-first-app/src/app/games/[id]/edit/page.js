@@ -5,6 +5,12 @@ import Link from "next/link";
 export default function Page({ params }) {
     const selectedGame = gamesData.find(game => game.id === parseInt(params.id));
 
+    if (!selectedGame) {
+        return (
+            <p>Game not found.</p>
+        )
+    }
+
     return (
         <div className={styles.gameDetails}>
             <h2 className={styles.title}>{selectedGame.title}</h2>

@@ -9,12 +9,12 @@
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #0070f3;
+    background-color: #2800b6;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .link:hover {
-    background-color: #0058b3;
+    background-color: #160062;
 }

@@ -8,7 +8,7 @@ export default function Home() {
             <p>Tady si muzes upravovat informace o svych hrach</p>
             <p>Projdi si seznam svych her</p>
             <Link href="/games">
-                <p className={styles.link}>Dashboard</p>
+                <p className={styles.link}>Klikni zde pro zobrazeni tvych her</p>
             </Link>
         </div>
     );

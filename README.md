@@ -18,3 +18,7 @@ The goal of this project was to gain hands-on experience with Next.js, a React f
 - React
 - HTML/CSS
 - JavaScript
+
+## Currently working on
+- adding working edit form
+- saving data and dynamic rendering

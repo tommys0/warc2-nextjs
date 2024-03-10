@@ -19,7 +19,10 @@ export default function Page({ params }) {
     }
 
     function saveData() {
-
+        console.log("Game title: " + gameTitle);
+        console.log("Game description: " + gameDescription);
+        console.log("Game genre: " + gameGenre);
+        console.log("Game release date: " + gameReleaseDate);
     }
 
     return (

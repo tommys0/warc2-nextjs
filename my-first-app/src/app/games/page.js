@@ -1,5 +1,8 @@
+"use client"
+
 import styles from './page.module.css';
 import Link from "next/link";
+import React, { useState } from 'react';
 
 export const gamesData = [
     {
@@ -46,12 +49,24 @@ export const gamesData = [
     }
 ]
 
+export function updateGamesData({ id, title, genre, releaseDate, description }) {
+    let game = gamesData.find(game => game.id === id);
+    if (game) {
+        game.title = title;
+        game.genre = genre;
+        game.release_date = releaseDate;
+        game.description = description;
+    }
+    console.log(gamesData);
+}
+
 export default function Dashboard() {
+    const [data, setData] = useState(gamesData);
     return (
         <div>
             <p className={styles.nadpis}>Tvoje hry</p>
             <ul className={styles.cardlist}>
-                {gamesData.map(game => (
+                {data.map(game => (
                     <li key={game.id} className={styles.card}>
                         <h3 className={styles.title}>{game.title}</h3>
                         <p className={styles.genre}><strong>Žánr:</strong> {game.genre}</p>

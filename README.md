@@ -1,4 +1,4 @@
-# My First Next.js Project
+# My First Next.js Project (PROJECT DONE)
 
 This repository contains my first Next.js project, which was completed as part of a homework assignment focused on creating a game showcase and editing website.
 
@@ -9,7 +9,7 @@ The goal of this project was to gain hands-on experience with Next.js, a React f
 ## Features
 
 - Game showcase page displaying various games with relevant information.
-- Edit functionality allowing users to modify game details such as title, description, and images. (not implemented)
+- Edit functionality allowing users to modify game details such as title, description, and images.
 - Responsive design for optimal viewing across different devices.
 
 ## Technologies Used
@@ -19,6 +19,4 @@ The goal of this project was to gain hands-on experience with Next.js, a React f
 - HTML/CSS
 - JavaScript
 
-## Currently working on
-- adding working edit form
-- saving data and dynamic rendering
+
